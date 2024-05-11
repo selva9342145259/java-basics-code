@@ -10,9 +10,6 @@ public class ArrayLargest {
 				if (a[i]<a[i+1]&&a[i+1]>largest) {
 					largest=a[i];
 				}
-			/* if (a[i]<largest) {
-				 secondLargest=a[i];
-				}*/
 				
 			}
 			System.out.println("1st largest  "+largest);
